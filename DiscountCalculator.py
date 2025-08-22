@@ -42,5 +42,5 @@ try:
         print(f"Final price: ${final_price:.2f}")
 
 except ValueError:
-    # Handle cases where the user enters non-numeric input
+    # Handling cases where the user enters non-numeric input
     print("\nInvalid input. Please enter valid numbers for price and discount.")
